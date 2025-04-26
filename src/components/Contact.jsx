@@ -26,6 +26,8 @@ const Contact = () => {
         </motion.p>
 
         <motion.form
+          action="https://formspree.io/f/xanonoag"
+          method="POST"
           className="space-y-6"
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
@@ -38,12 +40,14 @@ const Contact = () => {
           <div className="flex flex-col md:flex-row gap-6">
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               className="w-full p-4 bg-[#1a1a1a] rounded-xl text-white outline-none border border-[#333] focus:border-teal-400"
               required
             />
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
               className="w-full p-4 bg-[#1a1a1a] rounded-xl text-white outline-none border border-[#333] focus:border-teal-400"
               required
@@ -51,6 +55,7 @@ const Contact = () => {
           </div>
           <textarea
             rows="6"
+            name="message"
             placeholder="Your Message"
             className="w-full p-4 bg-[#1a1a1a] rounded-xl text-white outline-none border border-[#333] focus:border-teal-400"
             required
