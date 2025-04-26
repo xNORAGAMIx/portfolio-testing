@@ -16,7 +16,7 @@ const About = () => {
           viewport={{ once: true }}
         >
           <img
-            src="/1.1.jpeg"
+            src="/3.jpeg"
             alt="Profile"
             className="w-full h-full object-cover"
           />
