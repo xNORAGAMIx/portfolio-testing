@@ -6,7 +6,10 @@ const Contact = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section id="contact" className="w-full bg-[#0d0d0d] text-white py-24 px-6 md:px-20">
+    <section
+      id="contact"
+      className="w-full bg-[#0d0d0d] text-white py-24 px-6 md:px-20"
+    >
       <div className="max-w-4xl mx-auto" ref={ref}>
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-6 text-teal-400"
@@ -32,10 +35,6 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 0.6, duration: 0.8 }}
-          onSubmit={(e) => {
-            e.preventDefault();
-            // handle submission logic
-          }}
         >
           <div className="flex flex-col md:flex-row gap-6">
             <input
