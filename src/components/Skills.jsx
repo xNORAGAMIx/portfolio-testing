@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaJava, FaGitAlt, FaDocker } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJava, FaGitAlt, FaDocker, FaAws } from "react-icons/fa";
 import {
   SiJavascript,
   SiMysql,
@@ -19,6 +19,7 @@ const skills = [
   { icon: <FaGitAlt size={30} color="#F05032" />, label: "Git" },
   { icon: <SiSolidity size={30} color="#363636" />, label: "Solidity" },
   { icon: <SiFirebase size={30} color="#FFCA28" />, label: "Firebase" },
+  { icon: <FaAws size={30} color="#FF9900" />, label: "AWS" }, // ✅ Added AWS here
 ];
 
 const Skills = () => {
@@ -43,7 +44,7 @@ const Skills = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: idx * 0.1 }}
           >
-            <div className="">{skill.icon}</div>
+            <div>{skill.icon}</div>
             <span className="text-sm text-gray-300">{skill.label}</span>
           </motion.div>
         ))}
@@ -57,7 +58,7 @@ const Skills = () => {
       >
         I&apos;ve worked with frontend and backend technologies to build full-stack
         applications, explored blockchain with Solidity, and am comfortable using
-        Docker, Git, and Firebase for deployment and integration.
+        Docker, Git, Firebase, and AWS for deployment and integration.
       </motion.p>
     </section>
   );

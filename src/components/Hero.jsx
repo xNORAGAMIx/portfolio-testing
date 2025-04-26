@@ -108,12 +108,23 @@ const Hero = () => {
 
         {/* 🧠 Languages I Know */}
         <div className="mt-10 text-center">
-          <h3 className="text-lg md:text-xl font-semibold text-white mb-2">Languages I Know:</h3>
+          <h3 className="text-lg md:text-xl font-semibold text-white mb-2">
+            Languages I Know:
+          </h3>
           <div className="flex flex-wrap justify-center gap-4 text-lg font-medium">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Java</span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">JavaScript</span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-500">Solidity</span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">SQL</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+              Java
+            </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">
+              JavaScript
+            </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-500">
+              Solidity
+            </span>
+
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+              SQL
+            </span>
           </div>
         </div>
       </motion.div>
@@ -132,7 +143,11 @@ const Hero = () => {
             strokeWidth="2"
             viewBox="0 0 24 24"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19 9l-7 7-7-7"
+            />
           </svg>
         </a>
       </motion.div>

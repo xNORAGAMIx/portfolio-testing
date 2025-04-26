@@ -41,12 +41,14 @@ const Experience = () => {
       company: "Nexus Drop",
       team: "5 members",
       description:
-        "Developed a web application using Express, MySQL, and React for digital forensic automation. Designed and implemented features for extracting and analyzing social media data (WhatsApp, Instagram) using Electron and Node.js.",
-    }
-    
+        "Developed a full-stack e-commerce platform using Express, MySQL, and React. Implemented core business logic including user authentication, product management, cart functionality, order processing, and secure payment integration.",
+    }    
   ];
   return (
-    <section id="experience" className="bg-zinc-950 text-white py-24 px-6 md:px-20 relative">
+    <section
+      id="experience"
+      className="bg-zinc-950 text-white py-24 px-6 md:px-20 relative"
+    >
       <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center">
         Collaborations
       </h2>
