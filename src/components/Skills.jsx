@@ -55,7 +55,7 @@ const Skills = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        I’ve worked with frontend and backend technologies to build full-stack
+        I&apos;ve worked with frontend and backend technologies to build full-stack
         applications, explored blockchain with Solidity, and am comfortable using
         Docker, Git, and Firebase for deployment and integration.
       </motion.p>

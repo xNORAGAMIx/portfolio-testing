@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 
 const stats = [
-  { value: 3, label: "Years of Experience" },
-  { value: 200, label: "Problems Solved" },
-  { value: 15, label: "Projects Completed" },
-  { value: 98, label: "Cups of Coffee ☕" },
+  { value: 3, label: "Years of Learning" },
+  { value: 400, label: "Problems Solved" },
+  { value: 8, label: "Projects Completed" },
+  { value: 98, label: "Cups of Tea ☕" },
 ];
 
 const StatItem = ({ value, label, index, isVisible }) => {
