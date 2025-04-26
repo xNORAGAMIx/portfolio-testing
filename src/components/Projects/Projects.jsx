@@ -36,7 +36,7 @@ const projects = [
   {
     title: "Sorting Visualizer",
     description: "Visualize sorting algorithms in action.",
-    image: "/images/constitution.png",
+    image: "/sort.jpg",
     github: "https://github.com/xNORAGAMIx/Sorting-Visualizer",
     demo: "https://see-me-sort.vercel.app/",
   },
@@ -44,14 +44,14 @@ const projects = [
     title: "Node.js Starter Package",
     description:
       "A fast & scalable backend template with pre-configured folder structure for scalability.",
-    image: "/images/interview.png",
+    image: "/npm.png",
     github: "https://github.com/yourname/selector-simulator",
     demo: "https://www.npmjs.com/package/@noragami666/node-starter",
   },
   {
     title: "Dreamscape Diaries",
     description: "A web application for blogging and sharing your thoughts.",
-    image: "/images/interview.png",
+    image: "/blog.jpg",
     github: "https://github.com/xNORAGAMIx/BLOG_PAGE",
     demo: "https://blog-page-nine-indol.vercel.app/",
   },
@@ -59,7 +59,7 @@ const projects = [
     title: "GreenHub",
     description:
       "A frontend application built for promotion of sustainable development.",
-    image: "/images/interview.png",
+    image: "/green.jpg",
     github: "https://github.com/xNORAGAMIx/GREEN-CAMPUS",
     demo: "https://greenhub-campus.vercel.app/",
   },

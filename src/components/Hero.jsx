@@ -59,7 +59,7 @@ const Hero = () => {
         {/* 🌐 Socials */}
         <div className="flex justify-center items-center space-x-6 mt-6">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/xNORAGAMIx"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition"
@@ -68,7 +68,7 @@ const Hero = () => {
             <FaGithub size={26} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/manas-d-552168146/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition"
@@ -77,14 +77,14 @@ const Hero = () => {
             <FaLinkedin size={26} />
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:noragami0021@gmail.com"
             className="text-gray-400 hover:text-white transition"
             aria-label="Email"
           >
             <FaEnvelope size={26} />
           </a>
           <a
-            href="https://twitter.com/yourhandle"
+            href="https://x.com/eashan_das?t=iux5AuaTexX0WMG7kGLlCQ&s=09"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition"
