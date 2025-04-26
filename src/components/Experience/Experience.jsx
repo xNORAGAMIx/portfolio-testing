@@ -23,31 +23,32 @@ const Experience = () => {
 
   const experienceList = [
     {
-      role: "Frontend Developer",
-      company: "Green Community Hub",
-      duration: "Jan 2024 – Present",
+      role: "Frontend Application",
+      company: "GreenHub",
+      team: "4 members",
       description:
-        "Built responsive user interfaces with React, Tailwind, and GSAP animations. Integrated sustainability APIs and gamified achievements.",
+        "Collaborated on building responsive user interfaces using React, Tailwind CSS, and GSAP animations. Integrated sustainability APIs and implemented gamified features to promote user engagement.",
     },
     {
-      role: "Blockchain Dev",
-      company: "Decentralized Marketplace",
-      duration: "Aug 2023 – Dec 2023",
+      role: "Blockchain Application",
+      company: "LifeLedger",
+      team: "2 members",
       description:
-        "Developed smart contracts using Solidity, integrated IPFS for storage, and led the frontend DApp build with Web3.js.",
+        "Contributed to smart contract development using Solidity and integrated IPFS for decentralized storage. Led the frontend DApp development with Web3.js, ensuring seamless interaction with Ethereum smart contracts.",
     },
     {
-      role: "Full Stack Intern",
-      company: "Social Forensics Tool",
-      duration: "May 2023 – July 2023",
+      role: "Full Stack Application (Express + MySQL + React)",
+      company: "Nexus Drop",
+      team: "5 members",
       description:
-        "Built forensic automation tools for extracting social data from WhatsApp and Instagram using Electron + Node.js.",
-    },
+        "Developed a web application using Express, MySQL, and React for digital forensic automation. Designed and implemented features for extracting and analyzing social media data (WhatsApp, Instagram) using Electron and Node.js.",
+    }
+    
   ];
   return (
     <section id="experience" className="bg-zinc-950 text-white py-24 px-6 md:px-20 relative">
       <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center">
-        Experience
+        Collaborations
       </h2>
 
       {/* Scroll Line */}
