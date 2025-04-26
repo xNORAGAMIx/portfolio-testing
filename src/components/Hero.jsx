@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { HiDownload } from "react-icons/hi";
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center bg-[#0d0d0d] text-white px-6 md:px-12 overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-center bg-[#0d0d0d] text-white px-6 md:px-12 overflow-hidden"
     >
       {/* 🟣 Animated Blob */}
       <motion.div
@@ -20,7 +22,7 @@ const Hero = () => {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-      ></motion.div>
+      />
 
       <motion.div
         initial={{ opacity: 0, y: 60 }}
@@ -48,11 +50,72 @@ const Hero = () => {
           />
         </h2>
 
-        <p className="text-md md:text-lg text-gray-500 max-w-xl mx-auto">
+        <p className="text-md md:text-lg text-gray-500 max-w-xl mx-auto mb-4">
           I'm a full-stack developer focused on crafting clean & user-friendly
           experiences. Currently pursuing my MCA and building creative projects
           using React, Node.js & Blockchain.
         </p>
+
+        {/* 🌐 Socials */}
+        <div className="flex justify-center items-center space-x-6 mt-6">
+          <a
+            href="https://github.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition"
+            aria-label="GitHub"
+          >
+            <FaGithub size={26} />
+          </a>
+          <a
+            href="https://linkedin.com/in/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin size={26} />
+          </a>
+          <a
+            href="mailto:youremail@example.com"
+            className="text-gray-400 hover:text-white transition"
+            aria-label="Email"
+          >
+            <FaEnvelope size={26} />
+          </a>
+          <a
+            href="https://twitter.com/yourhandle"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition"
+            aria-label="Twitter"
+          >
+            <FaTwitter size={26} />
+          </a>
+        </div>
+
+        {/* 📄 Resume Button */}
+        <div className="mt-8">
+          <a
+            href="/Updated.pdf"
+            download
+            className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-teal-500 hover:bg-teal-400 text-black font-semibold transition"
+          >
+            <HiDownload className="text-lg" />
+            Download Resume
+          </a>
+        </div>
+
+        {/* 🧠 Languages I Know */}
+        <div className="mt-10 text-center">
+          <h3 className="text-lg md:text-xl font-semibold text-white mb-2">Languages I Know:</h3>
+          <div className="flex flex-wrap justify-center gap-4 text-lg font-medium">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Java</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">JavaScript</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-500">Solidity</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">SQL</span>
+          </div>
+        </div>
       </motion.div>
 
       {/* 🔻 Scroll-down arrow */}
@@ -69,11 +132,7 @@ const Hero = () => {
             strokeWidth="2"
             viewBox="0 0 24 24"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M19 9l-7 7-7-7"
-            />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
           </svg>
         </a>
       </motion.div>
