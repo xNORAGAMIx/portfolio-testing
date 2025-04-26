@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import StatsSection from "./components/StatsSection";
 import Experience from "./components/Experience/Experience";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <StatsSection />
       <Experience/>
       <Contact />
+      <Footer />
     </div>
   );
 }
