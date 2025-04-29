@@ -97,7 +97,7 @@ const Hero = () => {
         {/* 📄 Resume Button */}
         <div className="mt-8">
           <a
-            href="/Updated.pdf"
+            href="/ManasDas.pdf"
             download
             className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-teal-500 hover:bg-teal-400 text-black font-semibold transition"
           >
